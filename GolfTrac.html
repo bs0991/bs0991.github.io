@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GolfTrac</title>
+    <link rel="stylesheet" href="assets/css/GolfTrac.css">
+    <style type="text/css">
+        *{margin:0;}
+        body{
+            background: url("assets/css/images/img1.png") no-repeat;
+            background-size:cover;
+            height: 95vh;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav id="navbar">
+        <div class="left-side">
+            <div class="nav-link-wrapper">
+                <a href="#home">Home</a>
+            </div>
+    
+            <div class="nav-link-wrapper">
+                <a href="#teetimes">Tee Times</a>
+            </div>
+    
+            <div class="nav-link-wrapper">
+                <a href="#membership">Membership</a>
+            </div>
+    
+            <div class="nav-link-wrapper">
+                <a href="#amentities">Amentities</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="#contact">Contact</a>
+            </div>
+    
+            <div class="nav-link-wrapper">
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+    
+            <div class="nav-link-wrapper">
+                <a href=""><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="right-side">
+            <div>GolfTrac</div>
+        </div>
+    </nav>
+
+    <!--Tee Time Reservation Form-->
+   <section id="reservation">
+        <div class="reservation-form">
+            <form action="#">
+                <h2>Schedule a <span class="text-primary">Tee Time</span></h2>
+                <div class="form-box">
+                    <div class="form-field">
+                        <label for="first-name">First Name</label>
+                        <input type="text" placeholder="First Name">
+                    </div>
+                    <div class="form-field">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="form-field">
+                        <label for="number">Phone Number</label>
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email Address</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="form-field">
+                        <label for="date">Date</label>
+                        <input type="date">
+                    </div>
+                    <div class="form-field">
+                        <label for="time">Time</label>
+                        <input type="time">
+                    </div>
+                    <div class="form-field">
+                        <label for="players">Number of Players</label>
+                        <select name="select" id="#">
+                            <option value="1">1 Player</option>
+                            <option value="2">2 Players</option>
+                            <option value="3">3 Players</option>
+                            <option value="4">4 Players</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </div>
+            </form>
+        </div>
+   </section>
+
+   <!--Footer-->
+   <footer class="bg-dark">
+       <p>Copyright &copy; 2021 GolfTrac Incorporated All Rights Reserved.</p>
+   </footer>
+</body>
+</html>
+
+    
+

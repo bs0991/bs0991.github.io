@@ -1,0 +1,141 @@
+/* General Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: black;
+    overflow-x: hidden;
+}
+
+.text-primary {
+    color:maroon;
+}
+
+.bg-dark {
+    background: black;
+    color:whitesmoke;
+}
+
+/* Navbar */    
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(0,0,0,0.2);
+    font-weight: 700;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 5px black;
+}
+
+#navbar .left-side {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar .left-side a{
+    margin-right: 30px;
+    font-size: 1em;
+}
+
+#navbar .nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+#navbar .nav-link-wrapper a{
+    color: gainsboro;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+#navbar .nav-link-wrapper a:hover {
+    border-bottom: 1px solid maroon;
+}
+
+#navbar .nav-link-wrapper a:hover {
+    color: maroon;
+}
+
+#navbar .right-side {
+    display: flex;
+    color: maroon;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/*Tee Reservation Form*/
+#reservation {
+    padding: 4rem 3rem;
+}
+
+#reservation .reservation-form {
+    position: relative;
+}
+
+#reservation h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+#reservation h2 .text-primary {
+    color: maroon;
+}
+
+#reservation .form-box {
+    background-color:rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    box-shadow: (2px,2px,5px, whitesmoke);
+    border: maroon;
+    border-radius: 20px;
+    position:absolute;
+}
+
+#reservation .form-field {
+    display: block;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+}
+
+#reservation .form-field input,
+#reservation .form-field textarea {
+    width: 100%;
+    margin-left: 2px;
+    font-size: 1.2rem;
+    padding: 0rem;
+    border: 0.5px solid #333;
+    border-radius: 2px;
+    margin-right: 5in;
+}
+
+#reservation .submit-btn {
+    width: 20%;
+    font-size: 1rem;
+    cursor: pointer;
+    background: maroon;
+    color: whitesmoke;
+}
+
+/* Footer */
+
+footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 35px;
+}
+
+footer p {
+    text-align: center;
+}
+
